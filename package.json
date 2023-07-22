@@ -1,0 +1,24 @@
+{
+  "name": "fastapi",
+  "version": "1.0.0",
+  "description": "fastAPI test, chess API in Python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scha-ch/ch-grossmeister-fastapi.git"
+  },
+  "keywords": [
+    "chess-api",
+    "fastapi",
+    "python"
+  ],
+  "author": "https://github.com/scha-ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scha-ch/ch-grossmeister-fastapi/issues"
+  },
+  "homepage": "https://github.com/scha-ch/ch-grossmeister-fastapi#readme"
+}
