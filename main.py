@@ -9,24 +9,24 @@ from typing import Union
 from fastapi import FastAPI
 app = FastAPI()
 
-redis = get_redis_connection(
-    host="redis-11844.c135.eu-central-1-1.ec2.cloud.redislabs.com",
-    port=11844,
-    password="pRdcpRkk...",
-    decode_responses=True
-)
+# redis = get_redis_connection(
+    # host="redis-11844.c135.eu-central-1-1.ec2.cloud.redislabs.com",
+    # port=11844,
+    # password="pRdcpRkk...",
+    # decode_responses=True
+# )
 
-class Product(HashModel):
-    name: str
-    price: float
-    quantity: int
+# class Product(HashModel):
+    # name: str
+    # price: float
+    # quantity: int
 
-    class Meta:
-        database: redis
+    # class Meta:
+        # database: redis
 
-@app.get('/products')
-async def all():
-    return []
+# @app.get('/products')
+# async def all():
+    # return []
 
 # GET root/welcome
 @app.get("/")
